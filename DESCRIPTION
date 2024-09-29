@@ -2,10 +2,24 @@ Package: mabacR
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Authors@R: c(
+    person("Adam", "Slabadack", , "arslabadack@gmail.com", role = c("cre", "aut")),
+    person("Marcos", "Santos", , "marcosdossantos_doutorado_uff@yahoo.com.br", role = "ctb")
+  )
+Maintainer: Adam Slabadack <arslabadack@gmail.com>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: GPL (>= 2)
+URL: https://github.com/slabaverse/mabacR
+BugReports: https://github.com/slabaverse/mabacR/issues
+Depends: R (>= 4.3.0)
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: 
+    knitr
 Encoding: UTF-8
+Language: en-US
 LazyData: true
+RoxygenNote: 7.3.2
