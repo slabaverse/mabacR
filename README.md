@@ -1,4 +1,4 @@
-```markdown
+
 # mabacR
 
 `mabacR` is an R package that executes the mathematical algorithms that make up the MABAC method, a multi-criteria decision-making method. The package normalizes the data, applies weights, determines the border area, calculates distances to this area, and finally generates a ranking with the optimal option.
