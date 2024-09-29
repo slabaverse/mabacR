@@ -1,0 +1,24 @@
+---
+title: "MABAC-and-its-peculiarities"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{MABAC-and-its-peculiarities}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(mabacR)
+```
+
+
+## What does mabacR want to bring to you?
+
+The science of multicriteria decision-making is increasingly based on complex mathematical models. It is of utmost importance to obtain results supported in an exact and scientific manner so that decision-makers can minimize biases and find the so-called "optimal solution." The data used in these actions are generally vast and heterogeneous, which requires a significant effort when applying such models, as well as requiring sufficient mathematical knowledge to apply these data to complex formulas.The mabacR package aims to bring the decision maker closer to tools that facilitate the process, without worrying about all the mathematics involved in the algorithm. Just keep in mind which properties should be analyzed and the tool will return the optimal option. Remembering that the idea is to serve the decision maker with options to improve the decision process, the presence of the decision maker is crucial to make the best choice.

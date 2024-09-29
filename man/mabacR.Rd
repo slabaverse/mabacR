@@ -24,7 +24,7 @@ This package will execute the mathematical algorithms that make up the MABAC met
              and finally a ranking with the optimal option will be generated.
 }
 \examples{
-data(mabacr)
-          output <- mabacR(mabacr)
+data(mabac_df)
+          output <- mabacR(mabac_df)
 
 }

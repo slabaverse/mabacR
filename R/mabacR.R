@@ -14,8 +14,8 @@
 #'
 #' @return A ranking with the optimal choice in accordance with your criteria, weights and type of criteria
 #'
-#' @examples data(mabacr)
-#'           output <- mabacR(mabacr)
+#' @examples data(mabac_df)
+#'           output <- mabacR(mabac_df)
 #'
 #' @export
 #'
@@ -25,8 +25,7 @@ mabacR <- function(mabac_df) {
   # Testing initial data:
   if (missing(mabac_df))
     return("ERROR: Worksheet (mabac_df parameter) is missing")
-  if (check_format(mabac_df) == FALSE)
-    return("ERROR")
+  if (check_format(mabac_df) == FALSE) return("ERROR")
 
   # Getting the maximum and minimum values:
   maxmin_df <- mabac_df[, -c(1, 2, 3)]
