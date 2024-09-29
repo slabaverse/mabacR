@@ -85,3 +85,4 @@ mabacR <- function(mabac_df) {
   return(as.data.frame(final_ranking))
 
 }
+

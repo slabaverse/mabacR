@@ -30,7 +30,7 @@
 #' using Multi-Attributive Border Approximation area Comparison (MABAC).
 #' Expert systems with applications, v. 42, n. 6, p. 3016–3028, 2015.
 #'
-#' @keywords datasets, MABAC
+#' @keywords datasets
 #'
 #' @examples
 #' head(mabac_df)
