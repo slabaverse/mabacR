@@ -4,7 +4,8 @@ library(mabacR)
 data("mabac_df")
 
 test_that("Dataframe is correctly formatted", {
-  expect_true(check_format(mabac_df))
+  check_result <- check_format(mabac_df)
+  expect_true(check_result$status)
 })
 
 test_that("Missing Dataframe",{

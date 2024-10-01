@@ -25,7 +25,8 @@ mabacR <- function(mabac_df) {
   # Testing initial data:
   if (missing(mabac_df))
     return("ERROR: Worksheet (mabac_df parameter) is missing")
-  if (check_format(mabac_df) == FALSE) return("ERROR")
+  check_result <- check_format(mabac_df)
+  if (check_result$status == FALSE) return(paste("ERROR:", check_result$message))
 
   # Getting the maximum and minimum values:
   maxmin_df <- mabac_df[, -c(1, 2, 3)]
@@ -85,4 +86,3 @@ mabacR <- function(mabac_df) {
   return(as.data.frame(final_ranking))
 
 }
-
