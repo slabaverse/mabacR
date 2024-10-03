@@ -54,11 +54,12 @@ e.g.1 :
 | C8       | 0.068    |  1     | 2.80     | 2.20     | 2.50     | 2.00     | 2.10     | 2.80     | 2.60      |
 | C9       | 0.050    |  1     | 24.50    | 24.00    | 24.50    | 22.50    | 23.00    | 23.50    | 21.50     |
 | C10      | 0.048    |  1     | 6.50     | 7.00     | 7.30     | 11.00    | 6.30     | 7.00     | 6.00      |
+
 *Data extracted from the article that presented the method.
 
 ### Parameters
 
-The only parameter requested by the function is a dataset as shown in example 1.
+The only parameter requested by the function is a dataset as shown in e.g.1.
 You can check that dataset by running the command:
 
 ```R
@@ -69,23 +70,24 @@ data(mabac_df)
 
 The function returns a ranking with the optimal choice according to your criteria, weights, and types of criteria.
 
-e.g.:
-       Ranking
-A2  0.21833375
-A1  0.08259070
-A6  0.04653858
-A7  0.04641242
-A4  0.02461733
-A3 -0.04881552
-A5 -0.07042947
+e.g.2:
+
+|    | Ranking   |
+|----|-----------|
+| A2  0.21833375 |
+| A1  0.08259070 |
+| A6  0.04653858 |
+| A7  0.04641242 |
+| A4  0.02461733 |
+| A3 -0.04881552 |
+| A5 -0.07042947 |
 
 ### Example
 
 ```R
 # Example usage of the mabacR function
 
-install.packages("mabacR") # Installing the package
-library(mabacR) # Load it
+library(mabacR) # Load package
 data(mabac_df) # Load your dataset
 output <- mabacR(mabac_df) # Run the function
 print(output) # Print the resulting ranking
