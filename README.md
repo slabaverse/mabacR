@@ -55,7 +55,7 @@ e.g.1 :
 | C9       | 0.050    |  1     | 24.50    | 24.00    | 24.50    | 22.50    | 23.00    | 23.50    | 21.50     |
 | C10      | 0.048    |  1     | 6.50     | 7.00     | 7.30     | 11.00    | 6.30     | 7.00     | 6.00      |
 
-*Data extracted from the article that presented the method.
+*Data extracted from the paper that presented the method.
 
 ### Parameters
 
