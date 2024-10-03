@@ -32,11 +32,11 @@ mabacR()
 
 The `mabacR` function accepts a dataset that must contain, necessarily in this order:
 
-1. A column with the criteria: This column contains the criteria that will define the best choices. Replace the values ​​[ C1, C2, C3, ..., Cn ] with the defined criteria names;
+1. A column with the criteria: This column contains the criteria that will define the best choices. Replace the labels ​​[ C1, C2, C3, ..., Cn ] with the defined criteria names;
    
-2. A column with the weights: The weights determine the importance of the criteria. The closer to 1, the more impactful, the closer to 0, the less impactful. The sum of the weights must be equal to 1;
+2. A column with the weights: The weights determine the importance of the criteria. If closer to 1, more impactful, if closer to 0, less impactful. The sum of the weights must be equal to 1;
 
-3. A column with the types: The types of criteria are 1: benefit, what we want to maximize; or -1: cost, what we want to minimize.
+3. A column with the types: The types of criteria are **1**, benefit, what we want to maximize; or **-1**, cost, what we want to minimize.
    
 4. And the columns with the evaluated items: Remember to replace the labels [A1, A2, A3, ..., An] with the names of the analyzed items.
 
@@ -59,7 +59,7 @@ e.g.1 :
 
 ### Parameters
 
-The only parameter requested by the function is a dataset as shown in e.g.1.
+The only parameter requested by the function is a dataset as shown in **e.g.1**.
 You can check that dataset by running the command:
 
 ```R
